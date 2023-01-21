@@ -35,7 +35,7 @@ function bayangin(){
     var nama = document.getElementById('nama_input').value;
     var output = document.getElementById('output-text');
 
-    var bayang = 'Kadang gw ngebayangin gimana pas gw bangun tidur ternyata name ada di atas gw, sambil ngomong "sayang bangun yuk aku udah buatin makanan kesukaan kamu loh" gw kecup pipinya lalu gw peluk Suisei dengan lembut. Tanpa sadar gw nangis, gak nyangka aja punya istri yang sangat sempurna buat gw. Terus dia bilang "yang kok kamu nangis sih? yaudah kamu baring di pangkuan aku ya" gw baru baringin kepala di pahanya eh name tiba-tiba cium gw dong';
+    var bayang = 'Kadang gw ngebayangin gimana pas gw bangun tidur ternyata name ada di atas gw, sambil ngomong "sayang bangun yuk aku udah buatin makanan kesukaan kamu loh" gw kecup pipinya lalu gw peluk name dengan lembut. Tanpa sadar gw nangis, gak nyangka aja punya istri yang sangat sempurna buat gw. Terus dia bilang "yang kok kamu nangis sih? yaudah kamu baring di pangkuan aku ya" gw baru baringin kepala di pahanya eh name tiba-tiba cium gw dong';
 
     var replace4 = bayang.replace(/name/g, nama);
     output.innerHTML = replace4;
