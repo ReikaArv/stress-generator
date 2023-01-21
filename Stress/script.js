@@ -39,24 +39,5 @@ function bayangin(){
 
     var replace4 = bayang.replace(/name/g, nama);
     output.innerHTML = replace4;
-
 }
 
-
-
-
-//class codinganstress {
-//    constructor (nama) {
-//        this.nama = null
-//    }
-//   stress_() {
-//        function stress(){
-//            var nama = document.getElementById('nama_input').value;
-//            var output = document.getElementById('output-text');
-//        
-//            var ceplok = 'BUKA BAJU name LANGSUNG CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK //CEPLOK CEPLOK CROT CROT CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CEPLOK CROT CEPLOK CEPLOK CEPLOK CEPLOK CROT MONNCROOOTOOOOOOOOOOOOOOOOOOOOOOOTTTTTTTTTTTTTT'
-        
-//            var replace1 = ceplok.replace('name', nama)
-//            output.innerHTML = replace1;
-//    }
-//}
