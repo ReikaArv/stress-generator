@@ -41,3 +41,12 @@ function bayangin(){
     output.innerHTML = replace4;
 }
 
+function curhat(){
+    var nama = document.getElementById('nama_input').value;
+    var output = document.getElementById('output-text');
+
+    var curhat = 'Guys mau curhat ya. Kenapa gw tiap hari mikirin name terus ya? 😥 Mau makan mikirin name, mau tidur mikirin name, lagi kerja mikirin name, lagi melamun mikirinnya name. Sampe-sampe SPV gw aja tau gw lagi menghayalkan sesuatu. Sumpah ini gw gak bisa nyingkirin pikiran gw dari name. GW tau sih Ada Wong cuma fiction character, asli ini Moonton harus bertanggungjawab menghadirkan sesosok wanita yang seperti name. Hiks 😢 Guys tolongin dong gimana cara ngilangin pikiran ini, gw rasa gw udah mabuk kepayang sama name deh. 😭😭';
+
+    var replace5 = curhat.replace(/name/g, nama);
+    output.innerHTML = replace5;
+}
